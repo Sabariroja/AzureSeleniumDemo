@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite name = "Demo Suite">
-<test name="Test">
-<classes>
-<class name="com.qa.testngdemo.SeleniumTestngDemoTest"/>
-</classes>
-</test>
-</suite>
