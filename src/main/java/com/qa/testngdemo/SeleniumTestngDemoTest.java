@@ -3,9 +3,11 @@ package com.qa.testngdemo;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class SeleniumTestngDemoTest extends BaseTest{
+	@BeforeClass
 	@Test(priority =1)
 	public void verifySignInLink() {
 		//verify the presence of sign In Link 
